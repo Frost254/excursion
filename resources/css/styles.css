@@ -31,21 +31,18 @@ nav {
     top: 20%;
 }
 
-nav ul {
-    float: right;
-    margin-right: 20px;
-    color: white;
-    padding: auto;
-    margin: auto;
-    display: inline;
-    top: 20%;
+video {
+    height: 300px;
 }
 
-nav ul li {
-    display: inline-block;
-    line-height: 60px;
-    margin: 0 10px;
-    top: 20%;
+video,
+.logo,
+.camp {
+    margin: 0 auto;
+    position: relative;
+    width: 50%;
+    left: 25%;
+    padding-top: 10px;
 }
 
 a,
@@ -55,6 +52,18 @@ h1 {
 
 footer {
     background-color: #2C394B;
+}
+
+.phone {
+    width: 35px;
+    margin: 0 auto;
+    height: 75px;
+    padding-top: 10px;
+}
+
+.last {
+    text-align: center;
+    padding-top: 10px;
 }
 
 .h-nav {
@@ -69,7 +78,8 @@ footer {
     text-align: right;
 }
 
-.h2-nav {
+p,
+h2 {
     text-align: center;
 }
 
